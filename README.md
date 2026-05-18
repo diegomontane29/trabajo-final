@@ -13,4 +13,4 @@ Favor de dar click en "upload" y seleccionar el archivo en versión csv para el 
 ![Interfaz del sistema](images/selección_archivo.png)
 
 Tener en consideración que solo aplica para archivos "csv", se detallará un mnesaje luego de que el archivo se haya cargado de maanera correcta
-![Interfaz del sistema](images/confirmación_archivo.png)
+![Interfaz del sistema](images/confirmación.png)
