@@ -7,4 +7,4 @@ Al entrar al siguiente enlace: https://trabajo-final-av3r7d4lblprvmdl7pjiin.stre
 ![Interfaz del sistema](images/interfaz.png)
 
 Asimismo y, el punto más importante será poder realizar la debida carga del archivo
-![Interfaz del sistema](images/seleccion_archivo.png)
+![Interfaz del sistema](images/selección_archivo.png)
