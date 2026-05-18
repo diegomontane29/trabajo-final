@@ -18,9 +18,19 @@ Tener en consideración que solo aplica para archivos "csv", se detallará un me
 Una vez cargado el archivo se podrá visualizar variables claves y las subdivisiones elaboradas para poder un panorama más ordenado
 ![Interfaz del sistema](images/subdivision.png)
 
-El usuario tendrá diversas opciones para poder comparar el tipo de variable que desee, asimismo para este caso en particular, se consideró necesario aplicar análisis bivariados, diversos tipos de gráficas que permitan visualizar el comportamiento de las variables numéricas y categóricas ubicadas tanto en EDA como Análisis.
+El usuario tendrá diversas opciones para poder comparar el tipo de variable que desee, asimismo para este caso en particular, se consideró necesario aplicar análisis bivariados, diversos tipos de gráficas que permitan visualizar el comportamiento de las variables numéricas y categóricas ubicadas tanto en los apartados de EDA como Análisis.
 
 <p align="center">
   <img src="images/seleccion1.png" width="45%" />
   <img src="images/seleccion2.png" width="45%" />
 </p>
+
+En cuanto al apartado de "Hallazgos" se podrán visualizar los resultados de las relaciones de las variables, así como pequeñas observaciones.
+
+## 📌 Conclusiones Finales
+En base a la información recibida y al supuesto planteado se puede concluir lo siguiente:
+  1. Es necesario poder recolectar mejor la información dado que se ha observado que en diversas variables "unknown" aparece como una constante, lo cual no permite o limita un mejor panorama, por lo cual se recomienda a las respectivas áreas mejorar este aspecto.
+  2. Se tiene como público objetivo a las personas jóvenes, por lo cual el enfoque deberá centrarse o visualizar aquellas personas que sean jóvenes y tengan el debido sustento económico (en este caso medido por trabajo).
+  3. No se debe presionar a los clientes que tienen deuda, dado que se observa que estos no son partidarios de aceptar las campañas.
+  4. En cuanto al duration, este debe mejorar la objetividad del mismo, dado que la información a proporcionar debe ser compacta lo que le permita al potencial cliente a aceptar y no alargar el proceso.
+  5. La tasa de aceptación (11.27%) muestra un indicador relativamente bajo, por lo cual se debe analizar el perfil del cliente.
