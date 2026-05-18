@@ -16,6 +16,6 @@ Tener en consideración que solo aplica para archivos "csv", se detallará un me
 ![Interfaz del sistema](images/confirmación.png)
 
 Una vez cargado el archivo se podrá visualizar variables claves y las subdivisiones elaboradas para poder un panorama más ordenado
-![Interfaz del sistema](images/confirmación.png)
+![Interfaz del sistema](images/sudivision.png)
 
 El usuario tendrá diversas opciones para poder comparar el tipo de variable que desee, asimismo para este caso en particular, se consideró necesario aplicar análisis bivariados, diversos tipos de gráficas que permitan visualizar el comportamiento de las variables numéricas y categóricas.
