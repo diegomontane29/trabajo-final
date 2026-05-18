@@ -19,3 +19,8 @@ Una vez cargado el archivo se podrá visualizar variables claves y las subdivisi
 ![Interfaz del sistema](images/subdivision.png)
 
 El usuario tendrá diversas opciones para poder comparar el tipo de variable que desee, asimismo para este caso en particular, se consideró necesario aplicar análisis bivariados, diversos tipos de gráficas que permitan visualizar el comportamiento de las variables numéricas y categóricas.
+
+<p align="center">
+  <img src="images/seleccion1.png" width="45%" />
+  <img src="images/seleccion2.png" width="45%" />
+</p>
