@@ -11,3 +11,6 @@ Asimismo y, el punto más importante será poder realizar la debida carga del ar
 
 Favor de dar click en "upload" y seleccionar el archivo en versión csv para el desarrollo de la aplicación:
 ![Interfaz del sistema](images/selección_archivo.png)
+
+Tener en consideración que solo aplica para archivos "csv", se detallará un mnesaje luego de que el archivo se haya cargado de maanera correcta
+![Interfaz del sistema](images/confirmación_archivo.png)
