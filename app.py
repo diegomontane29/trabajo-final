@@ -98,7 +98,7 @@ class DataAnalyzer:
 
 if menu == "🏠 Home":
 
-    st.title("📊 Bank Marketing Dashboard")
+    st.title("📊 Campaña de Marketing - Proyecto visualizado")
 
     st.markdown("""
     ## Objetivo del proyecto
