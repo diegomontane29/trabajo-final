@@ -153,7 +153,7 @@ elif menu == "📂 Cargar Dataset":
 
                 st.session_state.df_raw = pd.read_csv(
                     uploaded_file,
-                    sep=";"
+                    sep=","
                 )
 
                 st.success(
