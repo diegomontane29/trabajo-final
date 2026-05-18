@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import io
 
 st.set_page_config(
-    page_title="Bank Marketing Dashboard",
+    page_title="PRIMER PROYECTO DE PORTAFOLIO PROFESIONAL",
     layout="wide"
 )
 
