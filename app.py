@@ -4,23 +4,14 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import io
 
-# =========================================================
-# CONFIG
-# =========================================================
 st.set_page_config(
     page_title="Bank Marketing Dashboard",
     layout="wide"
 )
 
-# =========================================================
-# SESSION STATE
-# =========================================================
 if "df_raw" not in st.session_state:
     st.session_state.df_raw = None
 
-# =========================================================
-# SIDEBAR
-# =========================================================
 st.sidebar.title("📌 Menú")
 
 menu = st.sidebar.radio(
@@ -28,9 +19,6 @@ menu = st.sidebar.radio(
     ["🏠 Home", "📂 Cargar Dataset"]
 )
 
-# =========================================================
-# POO
-# =========================================================
 class DataAnalyzer:
 
     def __init__(self, df):
@@ -42,7 +30,6 @@ class DataAnalyzer:
             include=["number"]
         ).columns.tolist()
 
-        # 🔧 CAMBIO 1: FIX CATEGÓRICAS (NO PIERDES "job")
         self.categorical = df.select_dtypes(
             include=["object", "string", "category"]
         ).columns.tolist()
@@ -109,9 +96,6 @@ class DataAnalyzer:
             ascending=False
         )
 
-# =========================================================
-# HOME
-# =========================================================
 if menu == "🏠 Home":
 
     st.title("📊 Bank Marketing Dashboard")
@@ -132,9 +116,6 @@ if menu == "🏠 Home":
     Python, Pandas, Streamlit, Seaborn, Matplotlib
     """)
 
-# =========================================================
-# CARGAR DATASET
-# =========================================================
 elif menu == "📂 Cargar Dataset":
 
     st.title("📂 Carga de Dataset")
@@ -173,9 +154,6 @@ elif menu == "📂 Cargar Dataset":
                 "Por favor sube un archivo .csv"
             )
 
-    # =====================================================
-    # VALIDACIÓN GLOBAL
-    # =====================================================
     df_raw = st.session_state.df_raw
 
     if df_raw is None:
@@ -188,12 +166,8 @@ elif menu == "📂 Cargar Dataset":
 
         df_raw = df_raw.convert_dtypes()
 
-        # =====================================================
-        # DATAFRAME ACTIVO
-        # =====================================================
         df_filtered = df_raw.copy()
 
-        # 🔧 CAMBIO 2: FIX SOLO "job" (NO ROMPE ANÁLISIS)
         if "job" in df_filtered.columns:
             df_filtered["job"] = (
                 df_filtered["job"]
@@ -206,9 +180,6 @@ elif menu == "📂 Cargar Dataset":
 
         target = "y"
 
-        # =====================================================
-        # KPIs
-        # =====================================================
         yes_rate = analyzer.conversion_rate()
 
         col1, col2, col3 = st.columns(3)
@@ -217,9 +188,6 @@ elif menu == "📂 Cargar Dataset":
         col2.metric("Tasa de aceptación", f"{yes_rate:.2f}%")
         col3.metric("Variables", len(df_filtered.columns))
 
-        # =====================================================
-        # TABS
-        # =====================================================
         tab1, tab2, tab3, tab4 = st.tabs([
             "📊 Información",
             "📈 EDA",
@@ -261,7 +229,6 @@ elif menu == "📂 Cargar Dataset":
 
             st.subheader("Preview")
 
-            # 🔧 CAMBIO 3: FIX ARROW (NO ROMPE STREAMLIT)
             st.dataframe(
                 info_df.astype(str), use_container_width=True
             )
