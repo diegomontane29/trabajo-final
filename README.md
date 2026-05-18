@@ -8,3 +8,6 @@ Al entrar al siguiente enlace: https://trabajo-final-av3r7d4lblprvmdl7pjiin.stre
 
 Asimismo y, el punto más importante será poder realizar la debida carga del archivo
 ![Interfaz del sistema](images/subir_archivo.png)
+
+Favor de dar click en "upload" y seleccionar el archivo en versión csv para el desarrollo de la aplicación:
+![Interfaz del sistema](images/selección_archivo.png)
