@@ -12,7 +12,7 @@ st.set_page_config(
 if "df_raw" not in st.session_state:
     st.session_state.df_raw = None
 
-st.sidebar.title("📌 Menú")
+st.sidebar.title("Menú")
 
 menu = st.sidebar.radio(
     "Navegación",
