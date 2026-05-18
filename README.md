@@ -18,7 +18,7 @@ Tener en consideración que solo aplica para archivos "csv", se detallará un me
 Una vez cargado el archivo se podrá visualizar variables claves y las subdivisiones elaboradas para poder un panorama más ordenado
 ![Interfaz del sistema](images/subdivision.png)
 
-El usuario tendrá diversas opciones para poder comparar el tipo de variable que desee, asimismo para este caso en particular, se consideró necesario aplicar análisis bivariados, diversos tipos de gráficas que permitan visualizar el comportamiento de las variables numéricas y categóricas.
+El usuario tendrá diversas opciones para poder comparar el tipo de variable que desee, asimismo para este caso en particular, se consideró necesario aplicar análisis bivariados, diversos tipos de gráficas que permitan visualizar el comportamiento de las variables numéricas y categóricas ubicadas tanto en EDA como Análisis.
 
 <p align="center">
   <img src="images/seleccion1.png" width="45%" />
